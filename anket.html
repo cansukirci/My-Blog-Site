@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anket.css">
+    <title>Anket</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Anket</h1>
+        <form action="#" method="post">
+            <div class="question">
+                <label for="color">Favori yazılım diliniz nedir?</label>
+                <select id="color" name="color" required>
+                    <option value="">Seçiniz...</option>
+                    <option value="kırmızı">Java</option>
+                    <option value="mavi">Html Css </option>
+                    <option value="yeşil">Phyton</option>
+                    <option value="sarı">C#</option>
+                    <option value="sarı">C++</option>
+                    <option value="sarı">Başka bir dil</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>Sizce yazılım hak ettiği ilgiyi görüyor mu?</label>
+                <input type="radio" id="cake" name="dessert" value="pasta" required>
+                <label for="cake">Evet</label>
+                <input type="radio" id="icecream" name="dessert" value="dondurma" required>
+                <label for="icecream">Hayır</label>
+                <input type="radio" id="chocolate" name="dessert" value="çikolata" required>
+                <label for="chocolate">Bir fikrim yok</label>
+            </div>
+            <div class="question">
+                <label>Web sitemle ilgili yorumlarınız nedir?</label>
+                <input type="radio" id="dog" name="animal" value="köpek">
+                <label for="dog">Fena gözükmüyor</label>
+                <input type="radio" id="cat" name="animal" value="kedi">
+                <label for="cat">Daha çok çalışmalısın</label>
+                <input type="radio" id="rabbit" name="animal" value="tavşan">
+                <label for="rabbit">Hiç olmamış</label>
+            </div>
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+</body>
+</html>
